@@ -420,6 +420,7 @@ section::before {
     flex-wrap: wrap;
     justify-content: center;
     width: 80%;
+    max-width: 1200px;
     margin: 20px auto 0;
     gap: 40px;
 }

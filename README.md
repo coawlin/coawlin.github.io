@@ -4,14 +4,13 @@ Portfolio website is built using HTML, CSS and Vanilla JavaScript.
 
 ***Project*** section is currently under construction and would be updated once it is available.
 
-<img src="https://img.shields.io/badge/version-1.0.0-blue" />
-<a href="https://github.com/coawlin/portfolio/search?l=javascript">
+<a href="https://github.com/coawlin/coawlin.github.io/search?l=javascript">
     <img src="https://img.shields.io/badge/Made_with-javascript-1f425f?logo=javascript" />
 </a>
-<a href="https://github.com/coawlin/portfolio/search?l=html">
+<a href="https://github.com/coawlin/coawlin.github.io/search?l=html">
     <img src="https://img.shields.io/badge/Made_with-html5-1f425f?logo=html5" />
 </a>
-<a href="https://github.com/coawlin/portfolio/search?l=css">
+<a href="https://github.com/coawlin/coawlin.github.io/search?l=css">
     <img src="https://img.shields.io/badge/Made_with-css3-1f425f?logo=css3" />
 </a>
 

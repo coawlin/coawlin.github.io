@@ -1,250 +1,279 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="keywords" content="coaw lin, portfolio, frontend dev, portfolio, portfolio website, personal portfolio" />
-    <meta name="description" content="Coaw Lin portfolio. Software Engineer | Front-end web developer" />
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <link id='favicon' rel="icon" href="./assets/images/favicon.ico" type="image/x-icon">
+    <meta
+      name="keywords"
+      content="coaw lin, portfolio, frontend dev, portfolio, portfolio website, personal portfolio"
+    />
+    <meta
+      name="description"
+      content="Coaw Lin portfolio. Software Engineer | Front-end web developer"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link
+      id="favicon"
+      rel="icon"
+      href="./assets/images/favicon.ico"
+      type="image/x-icon"
+    />
 
     <!-- Google Font - Poppins -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400&display=swap"
+      rel="stylesheet"
+    />
     <title>Portfolio | Coaw Lin</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <a href="/" class="navbar-logo">
-            <img draggable="false" src="./assets/images/coawlin.svg" alt="coawlin-logo">
-        </a>
-        <div id="hamburger-menu">
-            <div></div>
-            <div></div>
-            <div></div>
-        </div>
-        <div class="navbar">
-            <ul>
-                <!-- Default active tab is Home -->
-                <li class="navbar-item active"><a href="#home">Home</a></li>
-                <li class="navbar-item"><a href="#experience">Experience</a></li>
-                <li class="navbar-item under-construction" style="pointer-events: none;">
-                    <a href="#projects">Projects</a>
-                    <img src="./assets/images/under-construction.svg" />
-                </li>
-                <li class="navbar-item"><a href="#skills">Skills</a></li>
-                <li class="navbar-item"><a href="#contact">Contact</a></li>
-            </ul>
-        </div>
+      <a href="/" class="navbar-logo">
+        <img
+          draggable="false"
+          src="./assets/images/coawlin.svg"
+          alt="coawlin-logo"
+        />
+      </a>
+      <div id="hamburger-menu">
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+      <div class="navbar">
+        <ul>
+          <!-- Default active tab is Home -->
+          <li class="navbar-item active"><a href="#home">Home</a></li>
+          <li class="navbar-item"><a href="#experience">Experience</a></li>
+          <li
+            class="navbar-item under-construction"
+            style="pointer-events: none"
+          >
+            <a href="#projects">Projects</a>
+            <img src="./assets/images/under-construction.svg" />
+          </li>
+          <li class="navbar-item"><a href="#skills">Skills</a></li>
+          <li class="navbar-item"><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
     </header>
 
     <!-- home section starts -->
     <section id="home">
-        <h1 class="heading">👋 I'M COAW LIN</h1>
-        <div class="subtitle">
-            <p>I am a </p>
-            <div class="words">
-                <span class="role">Software Engineer</span>
-                <span class="role">Frontend Developer</span>
-                <span class="role">Javascript Developer</span>
-                <span class="role">Software Engineer</span>
-            </div>
+      <h1 class="heading">👋 I'M COAW LIN</h1>
+      <div class="subtitle">
+        <p>I am a</p>
+        <div class="words">
+          <span class="role">Software Engineer</span>
+          <span class="role">Frontend Developer</span>
+          <span class="role">Javascript Developer</span>
+          <span class="role">Software Engineer</span>
         </div>
+      </div>
     </section>
     <!-- home section ends -->
 
     <!-- experience section starts -->
     <section id="experience">
-        <h3 class="title">Experience</h3>
-        <div class="timeline">
-            <div class="timeline-vertical-line"></div>
-            <div class="experience-container right">
-                <!-- class selector has a higher weight than attribute selectors -->
-                <!-- so we user attribute for init and overwrite with class -->
-                <div data-animate="fade-side-init" class="experience-content">
-                    <h3>Keyisght Technologies</h3>
-                    <h4>Software Engineer</h4>
-                    <div class="experience-date">
-                        <img src="./assets/images/date.svg"/>
-                        <p><i>Apr 2020 - present</i></p>
-                    </div>
-                    <div class="experience-tech-stack">
-                        <p class="tech-stack-label">Typescript</p>
-                        <p class="tech-stack-label">HTML</p>
-                        <p class="tech-stack-label">Angular</p>
-                        <p class="tech-stack-label">Sass</p>
-                        <p class="tech-stack-label">React</p>
-                        <p class="tech-stack-label">Docker</p>
-                        <p class="tech-stack-label">Kubernetes</p>
-                    </div>
-                </div>
-                <div class="experience-logo-container">
-                    <img src="./assets/images/briefcase.svg" />
-                </div>
+      <h3 class="title">Experience</h3>
+      <div class="timeline">
+        <div class="timeline-vertical-line"></div>
+        <div class="experience-container right">
+          <!-- class selector has a higher weight than attribute selectors -->
+          <!-- so we user attribute for init and overwrite with class -->
+          <div data-animate="fade-side-init" class="experience-content">
+            <h3>Keyisght Technologies</h3>
+            <h4>Software Engineer</h4>
+            <div class="experience-date">
+              <img src="./assets/images/date.svg" />
+              <p><i>Apr 2020 - present</i></p>
             </div>
-        
-            <div class="experience-container left">
-                <div data-animate="fade-side-init" class="experience-content">
-                    <h3>Ox Street</h3>
-                    <h4>Frontend Web Developer</h4>
-                    <div class="experience-date">
-                        <img src="./assets/images/date.svg"/>
-                        <p><i>Jul 2019 - Feb 2020</i></p>
-                    </div>
-                    <div class="experience-tech-stack">
-                        <p class="tech-stack-label">Typescript</p>
-                        <p class="tech-stack-label">HTML</p>
-                        <p class="tech-stack-label">Styled-components</p>
-                        <p class="tech-stack-label">React</p>
-                        <p class="tech-stack-label">Redux</p>
-                        <p class="tech-stack-label">Ant Design UI</p>
-                        <p class="tech-stack-label">Material UI</p>
-                    </div>
-                </div>
-                <div class="experience-logo-container">
-                    <img src="./assets/images/briefcase.svg" />
-                </div>
+            <div class="experience-tech-stack">
+              <p class="tech-stack-label">Typescript</p>
+              <p class="tech-stack-label">HTML</p>
+              <p class="tech-stack-label">Angular</p>
+              <p class="tech-stack-label">Sass</p>
+              <p class="tech-stack-label">React</p>
+              <p class="tech-stack-label">Docker</p>
+              <p class="tech-stack-label">Kubernetes</p>
             </div>
-        
-            <div class="experience-container right">
-                <div data-animate="fade-side-init" class="experience-content">
-                    <h3>Motorola Solutions</h3>
-                    <h4>Software Engineer</h4>
-                    <div class="experience-date">
-                        <img src="./assets/images/date.svg"/>
-                        <p><i>Jul 2019 - Feb 2020</i></p>
-                    </div>
-                    <div class="experience-tech-stack">
-                        <p class="tech-stack-label">C</p>
-                        <p class="tech-stack-label">C++</p>
-                    </div>
-                </div>
-                <div class="experience-logo-container">
-                    <img src="./assets/images/briefcase.svg" />
-                </div>
-            </div>
+          </div>
+          <div class="experience-logo-container">
+            <img src="./assets/images/briefcase.svg" />
+          </div>
         </div>
-        <button class="resume-button bounce-animation">
-            <a target="_blank" href="https://1drv.ms/b/s!ApJRI0Xw7eC52Hy__UJBK1EAfLf-?e=fvVx16" download="CoawLinResume.pdf" title="CoawLinResume.pdf">
-                View Resume
-            </a>
-        </button>
+
+        <div class="experience-container left">
+          <div data-animate="fade-side-init" class="experience-content">
+            <h3>Ox Street</h3>
+            <h4>Frontend Web Developer</h4>
+            <div class="experience-date">
+              <img src="./assets/images/date.svg" />
+              <p><i>Jul 2019 - Feb 2020</i></p>
+            </div>
+            <div class="experience-tech-stack">
+              <p class="tech-stack-label">Typescript</p>
+              <p class="tech-stack-label">HTML</p>
+              <p class="tech-stack-label">Styled-components</p>
+              <p class="tech-stack-label">React</p>
+              <p class="tech-stack-label">Redux</p>
+              <p class="tech-stack-label">Ant Design UI</p>
+              <p class="tech-stack-label">Material UI</p>
+            </div>
+          </div>
+          <div class="experience-logo-container">
+            <img src="./assets/images/briefcase.svg" />
+          </div>
         </div>
-    
-    </div>
-    
+
+        <div class="experience-container right">
+          <div data-animate="fade-side-init" class="experience-content">
+            <h3>Motorola Solutions</h3>
+            <h4>Software Engineer</h4>
+            <div class="experience-date">
+              <img src="./assets/images/date.svg" />
+              <p><i>Jul 2019 - Feb 2020</i></p>
+            </div>
+            <div class="experience-tech-stack">
+              <p class="tech-stack-label">C</p>
+              <p class="tech-stack-label">C++</p>
+            </div>
+          </div>
+          <div class="experience-logo-container">
+            <img src="./assets/images/briefcase.svg" />
+          </div>
+        </div>
+      </div>
+      <button class="resume-button bounce-animation">
+        <a
+          target="_blank"
+          href="https://1drv.ms/b/s!ApJRI0Xw7eC52Hy__UJBK1EAfLf-?e=fvVx16"
+          download="CoawLinResume.pdf"
+          title="CoawLinResume.pdf"
+        >
+          View Resume
+        </a>
+      </button>
     </section>
     <!-- experience section ends -->
 
     <!-- skills section starts -->
     <section id="skills">
-            <h2 class="title">Skills</h2>
-            <div class="skills-backdrop" ></div>
-            <div class="skills-container">
-                <div class="skill">
-                    <div class="skill-background">
-                        <img draggable="false" src="./assets/images/html5.svg" />
-                    </div>
-                    <p class="skill-label">HTML5</p>
-                </div>
-                <div class="skill">
-                    <div class="skill-background">
-                        <img draggable="false" src="./assets/images/react.svg" />
-                    </div>
-                    <p class="skill-label">ReactJS</p>
-                </div>
-                <div class="skill">
-                    <div class="skill-background">
-                        <img draggable="false" src="./assets/images/redux.svg" />
-                    </div>
-                    <p class="skill-label">Redux</p>
-                </div>
-                <div class="skill">
-                    <div class="skill-background">
-                        <img draggable="false" src="./assets/images/css3.svg" />
-                    </div>
-                    <p class="skill-label">CSS3</p>
-                </div>
-                <div class="skill">
-                    <div class="skill-background">
-                        <img draggable="false" src="./assets/images/javascript.svg" />
-                    </div>
-                    <p class="skill-label">Javascript</p>
-                </div>
-                <div class="skill">
-                    <div class="skill-background">
-                        <img draggable="false" src="./assets/images/typescript.svg" />
-                    </div>
-                    <p class="skill-label">Typescript</p>
-                </div>
-                <div class="skill">
-                    <div class="skill-background">
-                        <img draggable="false" src="./assets/images/nestjs.svg" />
-                    </div>
-                    <p class="skill-label">NestJS</p>
-                </div>
-                <div class="skill">
-                    <div class="skill-background">
-                        <img draggable="false" src="./assets/images/sass.svg" />
-                    </div>
-                    <p class="skill-label">Sass</p>
-                </div>
-                <div class="skill">
-                    <div class="skill-background">
-                        <img draggable="false" src="./assets/images/docker.svg" />
-                    </div>
-                    <p class="skill-label">Docker</p>
-                </div>
-                <div class="skill">
-                    <div class="skill-background">
-                        <img draggable="false" src="./assets/images/kubernetes.svg" />
-                    </div>
-                    <p class="skill-label">Kubernetes</p>
-                </div>
-                <div class="skill">
-                    <div class="skill-background">
-                        <img draggable="false" src="./assets/images/angular.svg" />
-                    </div>
-                    <p class="skill-label">Angular</p>
-                </div>
-                <div class="skill">
-                    <div class="skill-background">
-                        <img draggable="false" src="./assets/images/antdesign.svg" />
-                    </div>
-                    <p class="skill-label">Ant Design</p>
-                </div>
-                <div class="skill">
-                    <div class="skill-background">
-                        <img draggable="false" src="./assets/images/material-ui.svg" />
-                    </div>
-                    <p class="skill-label">Material UI</p>
-                </div>
-            </div>
+      <h2 class="title">Skills</h2>
+      <div class="skills-backdrop"></div>
+      <div class="skills-container">
+        <div class="skill">
+          <div class="skill-background">
+            <img draggable="false" src="./assets/images/html5.svg" />
+          </div>
+          <p class="skill-label">HTML5</p>
+        </div>
+        <div class="skill">
+          <div class="skill-background">
+            <img draggable="false" src="./assets/images/react.svg" />
+          </div>
+          <p class="skill-label">ReactJS</p>
+        </div>
+        <div class="skill">
+          <div class="skill-background">
+            <img draggable="false" src="./assets/images/redux.svg" />
+          </div>
+          <p class="skill-label">Redux</p>
+        </div>
+        <div class="skill">
+          <div class="skill-background">
+            <img draggable="false" src="./assets/images/css3.svg" />
+          </div>
+          <p class="skill-label">CSS3</p>
+        </div>
+        <div class="skill">
+          <div class="skill-background">
+            <img draggable="false" src="./assets/images/javascript.svg" />
+          </div>
+          <p class="skill-label">Javascript</p>
+        </div>
+        <div class="skill">
+          <div class="skill-background">
+            <img draggable="false" src="./assets/images/typescript.svg" />
+          </div>
+          <p class="skill-label">Typescript</p>
+        </div>
+        <div class="skill">
+          <div class="skill-background">
+            <img draggable="false" src="./assets/images/nestjs.svg" />
+          </div>
+          <p class="skill-label">NestJS</p>
+        </div>
+        <div class="skill">
+          <div class="skill-background">
+            <img draggable="false" src="./assets/images/sass.svg" />
+          </div>
+          <p class="skill-label">Sass</p>
+        </div>
+        <div class="skill">
+          <div class="skill-background">
+            <img draggable="false" src="./assets/images/docker.svg" />
+          </div>
+          <p class="skill-label">Docker</p>
+        </div>
+        <div class="skill">
+          <div class="skill-background">
+            <img draggable="false" src="./assets/images/kubernetes.svg" />
+          </div>
+          <p class="skill-label">Kubernetes</p>
+        </div>
+        <div class="skill">
+          <div class="skill-background">
+            <img draggable="false" src="./assets/images/angular.svg" />
+          </div>
+          <p class="skill-label">Angular</p>
+        </div>
+        <div class="skill">
+          <div class="skill-background">
+            <img draggable="false" src="./assets/images/antdesign.svg" />
+          </div>
+          <p class="skill-label">Ant Design</p>
+        </div>
+        <div class="skill">
+          <div class="skill-background">
+            <img draggable="false" src="./assets/images/material-ui.svg" />
+          </div>
+          <p class="skill-label">Material UI</p>
+        </div>
+      </div>
     </section>
     <!-- skills section ends -->
 
     <!-- contact section starts -->
     <section id="contact">
-        <h2 class="title">Contact</h2>
-        <div class="contact-container">
-            <div data-animate="fade-bottom-init" class="contact-content">
-                <div class="contact-heading">
-                    <h3>Get in touch</h3>
-                    <p>My inbox is always open. Feel free to shoot me an email.</p>
-                </div>
-                <img draggable="false" src="./assets/images/contactme.jpg" alt="contact_me">
-                <div class="contact-email">
-                    <img src="./assets/images/email.svg" />
-                    <a class="" href="mailto:coawlin@hotmail.com">coawlin@hotmail.com</a>
-                </div>
-            </div>
+      <h2 class="title">Contact</h2>
+      <div class="contact-container">
+        <div data-animate="fade-bottom-init" class="contact-content">
+          <div class="contact-heading">
+            <h3>Get in touch</h3>
+            <p>My inbox is always open. Feel free to shoot me an email.</p>
+          </div>
+          <img
+            draggable="false"
+            src="./assets/images/contactme.jpg"
+            alt="contact_me"
+          />
+          <div class="contact-email">
+            <img src="./assets/images/email.svg" />
+            <a class="" href="mailto:coawlin@hotmail.com"
+              >coawlin@hotmail.com</a
+            >
+          </div>
         </div>
+      </div>
     </section>
     <!-- contact section ends -->
 
     <footer>
-        <span>© 2023 Coaw Lin</span>
+      <span>© 2023 Coaw Lin</span>
     </footer>
-</body>
-<script src="./assets/js/script.js"></script>
+  </body>
+  <script src="./assets/js/script.js"></script>
+</html>
